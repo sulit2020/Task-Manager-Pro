@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-wh*(wx%%dbg9o8#0wl6h%0e)qpqq)=iv6=18&(l%6+gb&$)i(b
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "task-manager-pro-silk.vercel.app",
     "task-manager-pro-nwxs.onrender.com",
+    "task-manager-pro-silk.vercel.app",
     "localhost",
     "127.0.0.1"
 ]
