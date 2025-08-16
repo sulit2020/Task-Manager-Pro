@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-wh*(wx%%dbg9o8#0wl6h%0e)qpqq)=iv6=18&(l%6+gb&$)i(b
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://task-manager-pro-silk.vercel.app/",
-    "https://task-manager-pro-nwxs.onrender.com",
+    "task-manager-pro-silk.vercel.app",
+    "task-manager-pro-nwxs.onrender.com",
     "localhost",
     "127.0.0.1"
 ]
@@ -75,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'wsgi.application'
+WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 # Database
