@@ -126,5 +126,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://task-manager-pro-five.vercel.app/",
+    "https://task-manager-pro-silk.vercel.app/",
 ]
