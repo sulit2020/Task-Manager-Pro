@@ -6,7 +6,7 @@ import App from './App';
 
 
 const client = new ApolloClient({
-  uri: "http://127.0.0.1:8000/graphql/",
+  uri: "https://task-manager-pro-nwxs.onrender.com/graphql/",
   cache: new InMemoryCache(),
 });
 
