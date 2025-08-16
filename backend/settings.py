@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-wh*(wx%%dbg9o8#0wl6h%0e)qpqq)=iv6=18&(l%6+gb&$)i(b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "https://task-manager-pro-silk.vercel.app/",
+    "https://task-manager-pro-nwxs.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # Application definition
@@ -127,4 +132,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "https://task-manager-pro-silk.vercel.app/",
+    "http://localhost:3000",
 ]
